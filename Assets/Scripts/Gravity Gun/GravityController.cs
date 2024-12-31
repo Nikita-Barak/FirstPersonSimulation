@@ -28,7 +28,7 @@ public class GravityController : MonoBehaviour
         if (grabbedRB)
         {
             // We move it to the objectHolder's position constantly and smoothly (deppendant on the lerp speed)
-            grabbedRB.MovePosition(Vector3.Lerp(grabbedRB.position, objectHolder.transform.position, Time.deltaTime *lerpSpeed));
+            grabbedRB.MovePosition(Vector3.Lerp(grabbedRB.position, objectHolder.transform.position, Time.deltaTime * lerpSpeed));
 
             // If we want to shoot our object, we throw it in the given force via the variable.
             if (inputManager.groundMovement.Shoot.triggered)
