@@ -1,4 +1,4 @@
-# FirstPersonSimulation
+# First Person Simulation
  
 The following project is a first person simulation, made as an exercise in our Game Development course via university.
 In this simulation, we cover basic first person controls: walking, camera control, running and jumping.
