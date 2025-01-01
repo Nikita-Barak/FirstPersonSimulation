@@ -40,4 +40,4 @@ This was done by creating an [interface Interactable script](https://github.com/
 - [Button](https://github.com/Nikita-Barak/FirstPersonSimulation/blob/main/Assets/Scripts/Interactions/Button.cs) - interaction leads to opening a door.
 - [BananaMan](https://github.com/Nikita-Barak/FirstPersonSimulation/blob/main/Assets/Scripts/Interactions/BananaMan.cs) - A t-posed character from Unity's asset store saying hello upon interaction.
 
-The interactions are handled via the PlayerInteract script, also projecting a raycast and handling only interactable objects if hit (similarily to the gravity gun, but over a different object layer called "Interactable").
+The interactions are handled via the [PlayerInteract script](https://github.com/Nikita-Barak/FirstPersonSimulation/blob/main/Assets/Scripts/Interactions/PlayerInteract.cs), also projecting a raycast and handling only interactable objects if hit (similarily to the gravity gun, but over a different object layer called "Interactable").
